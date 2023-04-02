@@ -10,8 +10,8 @@ public:
 	void imprimirListaAlumnos();
 	void alumnoSobresaliente();
 
-	// Alumnos{};();
-	//~ Alumnos{};();
+	~Alumnos();
+
 
 private:
 	char alumnoNom[41][25];
@@ -21,14 +21,6 @@ private:
 	float notaDef[41];
 
 };
-
-/*Alumnos{}; ::Alumnos{}; ()
-{
-}*/
-
-/*Alumnos{}; ::~Alumnos{}; ()
-{
-}*/
 
 int cantidadAlumno = 0, cantidadNotas = 0;
 
@@ -145,6 +137,18 @@ void Alumnos::alumnoSobresaliente()
 
 	cout << "\n";
 	cout << "******************************************************" << endl;
+	cout << "\n";
+	cout << "\n";
+}
+
+Alumnos :: ~Alumnos()
+{
+	cout << "Programa realizado por: Ing. Jhozmer Ramirez, Abril 02, Merida, Venezuela, 2023" << endl;
+	cout << "\n";
+	cout << "Gracias por utilizar este programa" << endl;
+
+	cout << "\n";
+	cout << "\n";
 	system("pause");
 	cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" << endl;
 }
