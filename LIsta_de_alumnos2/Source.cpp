@@ -9,9 +9,7 @@ public:
 	void calcularNotaAlumnos();
 	void imprimirListaAlumnos();
 	void alumnoSobresaliente();
-
 	~Alumnos();
-
 
 private:
 	char alumnoNom[41][25];
